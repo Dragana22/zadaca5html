@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+.home-header{
+    background: rgb(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    width: 100%;
+}
+
+.home-header a{
+    padding: 30px;
+    color: #fff;
+    
+}
+
+li{
+    display: inline-block;
+}
+
+.home-main{
+    background-image: url("image.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+img{
+    width: 500px;
+}
+
+h2{
+    text-align: center;
+    color: rgb(26,61,126);
+}
+
+.about-page{
+    display: inline-block;
+    
+}
+
+table, tr, td{
+    border: 3px solid black;
+    color: rgb(26, 61, 126);
+    background-color: rgb(208, 219, 233);
+}
+
